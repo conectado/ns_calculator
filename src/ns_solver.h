@@ -23,4 +23,6 @@ class ns_solver {
 
     ~ns_solver();
 }; 
+
+#include "ns_solver.tpp"
 #endif

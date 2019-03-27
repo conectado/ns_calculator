@@ -36,6 +36,9 @@
 *.out
 *.app
 
+# Binaries
+bin/*
+
 ### Vim ###
 # Swap
 [._]*.s[a-v][a-z]

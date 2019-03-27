@@ -2,6 +2,6 @@
 #include <vector>
 
 int main() {
-  using matrix = std::vector<std::vector<int>>;
+  using matrix = std::vector<std::vector<double>>;
   ns_solver<matrix> ns;
 }
