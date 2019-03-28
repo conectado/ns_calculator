@@ -1,13 +1,15 @@
 #ifndef __NS_SOLVER_H_INCLUDED__
 #define __NS_SOLVER_H_INCLUDED__
-template <class matrix>
+template <typename matrix>
 class ns_solver {
   private:
     int itermax;
 
     double delX, delY;
     int imax, jmax;
-    matrix u, v, p, F, G;
+    matrix u, v, p;
+
+    matrix init(matrix mat);
 
   public:
     ns_solver ();
